@@ -1,0 +1,155 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+ header{
+     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("w.jpg");
+     height:100vh;
+     background-size: cover;
+     background-position: center;
+     
+ }
+ ul{
+     list-style-type: none;
+     float: right;
+     margin-top: 25px;
+     
+
+ }
+ ul li{
+     display: inline-block;
+     padding:5px;
+    
+ }
+ ul li a{
+     text-decoration: none;
+    padding:5px 20px;;
+    border:1px solid white;
+    color:white;
+    
+ }
+ ul li a:hover{
+     color:black;
+     background-color: white;
+
+ }
+ ul li.active a
+ {
+     background-color: white;
+     color:orangered;
+ }
+
+ .logo img
+ {
+float:left;
+width:120px;
+height:auto;
+margin-top: 20px;
+margin-left:20px ;
+
+ }
+ .main{
+     max-width: 1500px;
+ }
+
+ .title{
+     position:absolute;
+     top:50%;
+     left:20%;
+     transform:translate(-50%,-50%) ;
+ }
+ .title h1
+ {
+     color:white;
+     font-size: 50px;
+ }
+
+ .button{
+    position:absolute;
+    top:62%;
+    left:20%;
+    transform:translate(-50%,-50%) ;
+    
+ }
+
+  .ab{
+    border:1px solid white;
+    padding:10px 30px;
+    text-decoration: none;
+    color: white;
+    margin:10px;
+
+ }
+
+ .ab:hover{
+    color:black;
+    background-color:white;
+
+
+}
+.col{
+
+    position: absolute;
+    top:50%;
+    left:70%;
+    transform: translate(-50%,-50%);
+    
+ }
+
+ .card
+ {
+     width:200px;
+     height:200px;
+     display:inline-flex;
+     border-radius: 10px;
+     padding: 20px 25px;
+     box-sizing:border-box;
+     cursor:pointer;
+     margin-bottom: 25px;
+     margin-right:25px ;
+     text-align: center;
+     font-size: larger;
+     font-weight: bolder;
+     color:black;
+     background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+ }
+    
+ .card1
+ {
+    background-image: url("pic-1.png");
+    
+}
+
+    
+.card2
+{
+   background-image: url("pic-2.png");
+  
+}
+    
+.card3
+{
+   background-image: url("pic-3.png");
+}
+    
+.card4
+{
+   background-image: url("pic-4.png");
+  
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+ 
+
+
+ 
+
+  
